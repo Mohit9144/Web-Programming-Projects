@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Replica</title>
+  <link rel="stylesheet" href="mohit.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">YouTube Replica</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button><i class="fas fa-search"></i></button>
+    </div>
+    <div class="menu-btn" onclick="toggleSidebar()"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <div class="container">
+    <aside id="sidebar">
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-clock"></i> Watch Later</li>
+        <li><i class="fas fa-user-friends"></i> Subscriptions</li>
+      </ul>
+    </aside>
+
+    <main>
+      <section id="videoContainer" class="video-section">
+        <!-- Videos loaded by script.js -->
+      </section>
+
+      <section class="extra-section">
+        <h2>Watch Later</h2>
+        <p>Saved videos will appear here.</p>
+      </section>
+
+      <section class="extra-section">
+        <h2>Subscriptions</h2>
+        <p>Your channel subscriptions will show up here.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p><strong>Team:</strong> Mohit Patil, Nikhil Patil, Dhruv Patil</p>
+    <p>This is just for trial purposes. Please don’t sue us 😄.</p>
+  </footer>
+
+  <script src="mohit.js"></script>
+  <link rel="stylesheet" href="mohit.css" />
+  
+</body>
+</html>
